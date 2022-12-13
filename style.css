@@ -1,0 +1,25 @@
+div{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    position: absolute;
+    top: 20px;
+
+    animation-name: kolokvijum;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /* animation-timing-function: steps(10); */
+}
+
+@keyframes kolokvijum {
+    0%{
+        left: 20px;
+    }
+
+
+    100%{
+        left: 1500px;
+        transform: rotate(180deg);
+    }
+}
